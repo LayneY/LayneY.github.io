@@ -32,10 +32,17 @@
 	      Secure HTTPS connections are used to keep connections to websites encrypted, which means when you visit a website, the connection can't be seen or monitored by someone else. The data sent over these connections is encrypted as it is transferred and is not able to be broken into. When using unsecured websites or using unsecured WiFi networks, there is an opportunity for man in the middle (MITM) attacks. MITM attacks are when someone places themselves in between a connection with a user and a website. The person is then able to "steal personal information, such as login credentials, account details and credit card numbers," while the data is being transferred (Imperva, 2019). This creates security issues because what looks like a regular website is actually being watched and your data is being stolen. The encrypted connection created by HTTPS is called SSL (Secure Sockets Layer) or TLS (Transport Layer Security), which is what allows the traffic to be encrypted. This created problems for institutions that want to have access to their employees' and students' Internet usage, leading to the creation of HTTPS Proxy Appliances. These Proxy Appliances create ways for institutions to see what they could not see before. I don't believe that institutions such as schools and the government should have access to our Internet usage. Our Internet usage and communications should be private to us and institutions should not have the right to eavesdrop on us. When a user uses a browser to make a connection to an HTTPS site, the site must provide a signed certificate for the browser to accept. Certificate Authorities (CA) are a third party that we trust to know that our traffic is going where we intend. Websites prove themselves to the CA with documents, phone numbers, and so forth. Once a website has proven it's identity, the CA will sign the website's certificate, which browsers use when a connection is made (GRC, 2020).
 	      <br>
 	      This kind of encryption has made it difficult for institutions to see what their employees or students do with the Internet. An SSL Proxy intercepts connections to a remote site while in an institution's network. The proxy "creates a fraudulent 'spoofed' web server certificate in order to impersonate the intended remote web site" and is able to sign the certificate on it's own (GRC, 2020). This is made possible by a fraudulent CA that has been put on the browser. The proxy is able to perfectly pretend to be the intended site, making it look and seem like a secure connection. The proxy can then log any traffic sent to or from the browser, giving it complete access to any data sent across the connection. While it is not possible to prevent this kind of SSL interception, it is possible to detect it. A hash is an algorithm that can examine fingerprints, and "if even one bit inside the certificate is changed," about half of the hash bits will also change (GRC 2020). This results in a drastically different fingerprint. SSL Proxies can not get access to the private key of a remote server, therefore, they must use a different public key. It is impossible for an SSL Proxy to completely impersonate a remote site with the same key. A hash can read the fingerprint and make it obvious that the fingerprint is different. This means you can detect SSL interception by seeing if the fingerprint of the intended site is the same as the site you went to. The fingerprint of a site can easily be seen from a web browser's interface and will be very different from what the fingerprint should be. Some bigger websites, such as Google and Amazon, have multiple certificates, so when people compare certificates, they may be lead to believe their connection is being intercepted, when it actually isn't. This is called a false-positive, when there is a indication of a security threat, but there isn't (Datto, 2022). There are also false-negatives, which is when something such as a website is detected as safe or secure, but in reality, it is unsafe (Datto, 2022).
+	      <br>
+	      Cyber security can be dangerous and confusing, making it easy to let your guard down when on the Internet. Make sure to stay safe while browsing to prevent your data from being stolen, or worse. Try to stay on websites that start with https instead of http and don't click random links to help keep you safe. 
 	      
 	  <br>
 	      
 	</p>
+	<br>
+	<br>
+
+	<img src="Images/fingerprints.jpeg" alt="Fingerprints flowchart">
+	
 	<br>
 	<br>
 
@@ -44,7 +51,9 @@
 
 	  Fichtner, E. (2022, March 8). Cybersecurity 101: What You Need To Know About False Positives and False Negatives. Datto. https://www.datto.com/blog/cybersecurity-101-what-you-need-to-know-about-false-positives-and-false-negatives
 	  <br>
+	  <br>
 	  Shabi, T., Hasson, E., Gravier, O., Hasson, E., Hasson, E., Avital, N., S.L., Lynch, B., & Lynch, B. (2019, December 29). What is MITM (Man in the Middle) Attack | Imperva. Learning Center. https://www.imperva.com/learn/application-security/man-in-the-middle-attack-mitm/
+	  <br>
 	  <br>
 	  Web Server Certificate Fingerprints. (2020). Gibson Research Corporation. https://www.grc.com/fingerprints.htm#top
 	  
