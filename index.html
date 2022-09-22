@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>Digital Portfolio | Home</title>
@@ -8,6 +8,7 @@
  
   <body>
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
     
     <header>
       Digital Portfolio
@@ -16,48 +17,43 @@
     <br>
 
     <div class="tabRight" style="text-align:center;">
-      
-      <a href="index.html" class="buttonLink"><button class="button1">About</button></a>
-      <a href="CS-I/index.html" class="buttonLink"><button class="button1">Computer Science I</button></a>
-      <a href="CS-II/index.html" class="buttonLink"><button class="button1">Computer Science II</button></a>
-      <a href="classes.html" class="buttonLink"><button class="button1">My Classes</button></a>
+
+      <button class="button1" onclick="openPage('index.html')">About</button>
+      <button class="button1" onclick="openPage('CS-I/index.html')">Computer Science I</button>
+      <button class="button1" onclick="openPage('CS-II/index.html')">Computer Science II</button>
+      <button class="button1" onclick="openPage('classes.html')">My Classes</button>
       
     </div>
 
     <br>
     
-    <div style="margin-left: 500px;text-align: center;">
+    <div style="margin-left: auto;margin-right:auto;width:1000px;">
       
-	<h1 style="font-family:arial">About Me</h1>
-
-	<br>
-
-	<h2 style="font-family:calibri">
-	  Hi, my name is Layne Yarbrough!
-	</h2>
-	<p style="text-align:center">
-	  I am a student attending Allen High School. I enjoy computer programming, playing in the marching band,
-	  <br>
-	  and hanging out with friends. I am currently taking AP US History, Computer Science II, Physics
-	  <br>
-	  Advanced, Pre-Calculus Advanced, Dual Credit Composition I, and Advanced Symphonic Band II. I participate
-	  <br>
-	  in the Eagle Robotics team and play clarinet in the Allen Eagle Escadrille.
-	  <br><br>
-	<p style="font-weight:bold;margin-bottom:1px;">Why is this Digital Portfolio beneficial to me?<p style="font-weight:normal;">
-	<br>
+      <h1 style="font-family:arial;text-align:center">About Me</h1>
+      
+      <br>
+      
+      <h2 style="font-family:calibri;text-align:center;">
+	Hi, my name is Layne Yarbrough!
+      </h2>
+      <p style="text-align:center;width:1000px;margin-left:auto;margin-right:auto;">
+	I am a student attending Allen High School. I enjoy computer programming, playing in the marching band,
+	and hanging out with friends. I am currently taking AP US History, Advanced Computer Science II, Physics
+	Advanced, Pre-Calculus Advanced, Dual Credit Composition I, and Advanced Symphonic Band II. I participate
+	in the Eagle Robotics team and play clarinet in the Allen Eagle Escadrille.
+      </p>
+      <br>
+      <h2 style="font-family:calibri;margin-left:auto;margin-right:auto;text-align:center">Why is this Digital Portfolio beneficial to me?</h2>
+      <p style="font-weight:normal;text-align:center;margin-bottom:1px;">
 	This Digital Portfolio is beneficial to me because it will show things that I have made and things
-	<br>
 	that I have learned. I will be able to show the places I apply for jobs at my Digital Portfolio to
-	<br>
 	show them what I know and what I have learned. This will help give me an edge over the competition
-	<br>
 	and get the job.
-	</p>
+      </p>
 
-	<br>
+      <br>
 
-	<a href="https://LayneY.github.io" target="_blank"><button class="button2">This Portfolio's GitHub</button></a>
+      <button style="margin-right:auto;margin-left:auto;display:block" class="button2" onclick="openNewWindow('https://LayneY.github.io')">This Portfolio's GitHub</button>
 	
       
     </div>

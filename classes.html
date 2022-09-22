@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>Digital Portfolio | Classes</title>
@@ -7,19 +7,19 @@
   
   <body>
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
     
     <header>
       Digital Portfolio
     </header>
     
-    <title>Digital Portfolio | Classes</title>
     <br>
 
     <div class="tabRight" style="text-align:center;">
-      <a href="index.html" class="buttonLink"><button class="button1">About</button></a>
-      <a href="CS-I/index.html" class="buttonLink"><button class="button1">Computer Science I</button></a>
-      <a href="CS-II/index.html" class="buttonLink"><button class="button1">Computer Science II</button></a>
-      <a href="classes.html" class="buttonLink"><button class="button1">My Classes</button></a>
+      <button class="button1" onclick="openPage('index.html')">About</button>
+      <button class="button1" onclick="openPage('CS-I/index.html')">Computer Science I</button>
+      <button class="button1" onclick="openPage('CS-II/index.html')">Computer Science II</button>
+      <button class="button1" onclick="openPage('classes.html')">My Classes</button>
     </div>
 
     <br>
@@ -30,11 +30,13 @@
 	<br>
 	
 	<h2>
-	  Computer Science I<br>
-	  <p style="font-weight:normal;font-size:100%">I learned about the basics of Swift by creating functions, classes, objects, and learning about the language. <a href="CS-I/index.html" style="color:blue">My CS-I Page</a></p><br>
-	  Computer Science II<br>
-	  <p style="font-weight:normal;font-size:100%">I am currently taking this class and so far I have learned about making websites with HTML and CSS. <a href="CS-II/index.html" style="color:blue">My CS-II Page</a></p><br>
+	  Computer Science I
 	</h2>
+      <p style="font-weight:normal;font-size:150%">I learned about the basics of Swift by creating functions, classes, objects, and learning about the language. <a href="CS-I/index.html" style="color:blue">My CS-I Page</a></p>
+      <h2>
+	Computer Science II
+      </h2>
+      <p style="font-weight:normal;font-size:150%">I am currently taking this class and so far I have learned about making websites with HTML and CSS. <a href="CS-II/index.html" style="color:blue">My CS-II Page</a></p>
 	
     </div>
     

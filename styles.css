@@ -57,10 +57,11 @@ p {
 
 .essay {
     width: 1000px;
-    text-align: center;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    text-indent: 50px;
 }
 
 .essayTitle {
@@ -71,17 +72,33 @@ p {
     text-align: center;
 }
 
-.essaySubtitle {
+.essayHeading {
     margin-left: auto;
     margin-right: auto;
     display: block;
     text-align: center;
     margin-bottom: 2px;
+    font-weight: normal;
+}
+
+.essaySubtitle {
+    font-family: verdana;
+    font-size: 135%;
 }
 
 .essayDiv {
     margin-left: auto;
     margin-right: auto;
+    width: 1000px;
+}
+
+.essayReference {
+    width: 1000px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    text-indent: -50px;
 }
 
 header {

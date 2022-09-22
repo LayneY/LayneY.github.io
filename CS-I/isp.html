@@ -1,16 +1,23 @@
-<html>
-  <header>
-    Computer Science I
-  </header>
-  
-  <link rel="stylesheet" href="../styles.css">
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
     <title>Digital Portfolio | My ISP</title>
+  </head>
+  
+  <body>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../scripts.js"></script>
+    
+    <header>
+      Computer Science I
+    </header>
+    
     <br>
     
     <div class="tabRight" style="text-align:center;">
-      <a href="../index.html" class="buttonLink"><button class="button1">Home</button></a>
-      <a href="isp.html" class="buttonLink"><button class="button1">My ISP</button></a>
+      <button class="button1" onclick="openPage('../index.html')">Home</button>
+      <button class="button1" onclick="openPage('isp.html')">My ISP</button>
     </div>
 
     <br>
@@ -67,15 +74,17 @@
 
 	<br>
 	<br>
-	<center>
-	  <span>
-	    <a href="https://codermerlin.com/igis/layne-yarbrough/" target="_blank"><button class="button2" style="font-size:150%;margin-left:450px;">IGIS</button></a>
-	    <a href="https://github.com/LayneY/ISP" target="_blank"><button class="button2" style="font-size:150%;">GitHub</button></a>
-	  </span>
-	</center>
 
-	
+	<div style="margin-left:auto;margin-right:auto;text-align:center;">
+	  <span>
+	    <button class="button2" style="font-size:150%" onclick="openNewWindow('https://codermerlin.com/igis/layne-yarbrough/')">IGIS</button>
+	    <button class="button2" style="font-size:150%" onclick="openNewWindow('https://github.com/LayneY/ISP')">GitHub</button>
+	  </span>
+	</div>
     </div>
+    
+	
+
     
   </body>
   
