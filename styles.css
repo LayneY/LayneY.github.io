@@ -101,6 +101,12 @@ p {
     text-indent: -50px;
 }
 
+.centeredParagraph {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 header {
     text-align: center;
     background-color: firebrick;
