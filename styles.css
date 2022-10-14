@@ -107,6 +107,13 @@ p {
     text-align: center;
 }
 
+.centeredImage {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+}
+
 header {
     text-align: center;
     background-color: firebrick;
