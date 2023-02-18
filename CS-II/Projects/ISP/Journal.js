@@ -1,7 +1,7 @@
 const journals = [
+    '{"date":"13-Feb-2023", "tc":"This week some of our JavaScript code stopped working and some team members messed around with the code. We overcame this challenge by using GitHub to revert the changes to a working state.", "sc":"This week we had other assignments we had to work on, which made it difficult and stressful to work on our assignments and on the project.", "ic":"There were not many challenges between team members this week."}',
     '{"date":"6-Feb-2023", "tc":"I worked on making the class selection page transfer the data to the scheduler page, so I had to figure out the best way to do it and implement it. I ended up using localStorage in JavaScript which worked very well and was not overly complicated.", "sc":"This week we were working on a different assignment in class, so sometimes it is challenging to work together in class. We have resolved this by telling people what they should do through Discord so everyone can be on the same page.", "ic":"It seems that many conflicts between team members have been resolved. We are also working more as a team this week in class, so there aren\'t many interpersonal challenges this week."}',
     '{"date":"30-Jan-2023", "tc":"We did not work that much this week due to the ice storm.", "sc":"We used Discord for communication this week to get past the challenge of the ice storm preventing us from meeting in class.", "ic":"There were not many challenges interpersonally this week on the team."}',
-    '{"date":"", "tc":"", "sc":"", "ic":""}',
     '{"date":"", "tc":"", "sc":"", "ic":""}',
     '{"date":"", "tc":"", "sc":"", "ic":""}',
     '{"date":"", "tc":"", "sc":"", "ic":""}',
