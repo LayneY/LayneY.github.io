@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Digital Portfolio | Advanced Sorts</title>
+  </head>
+  
+  <body>
+    <link rel="stylesheet" href="../../styles.css">
+    <script src="../../scripts.js"></script>
+    
+    <header>
+      Computer Science III
+    </header>
+    
+    <br>
+
+    <div class="tabRight">
+	<button class="button1" onclick="openPage('../../index.html')">Home</button>
+	<button class="button1" onclick="openPage('AdvancedSorts.html')">Advanced Sorts</button>
+    </div>
+
+    <br>
+    
+    <div class="essayDiv">
+      <h1 class="essayTitle">Advanced Sorts</h1>
+      <br>
+
+      <br>
+      <br>
+
+      <h2 class="essaySubtitle">Merge Sort</h2>
+      <p class="essay">
+	Merge sort is a divide and conquer sorting algorithm. The algorithm will start by splitting the unsorted array into two halves. Then the halves are each divided into halves. This repeats until each element is in its own temporary array. Then the merging begins by merging two elements at a time together in the correct order. Then the small arrays are merged together, comparing each number as it goes to build the new array in the right order. This repeats until all the temporary arrays have been merged into the sorted array.
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Merge_sort_algorithm_diagram.svg/300px-Merge_sort_algorithm_diagram.svg.png" style="width:35%;height:35%">
+
+      <h2 class="essaySubtitle">Quicksort</h2>
+      <p class="essay">
+	Quicksort is also a divide and conquer sorting algorithm. The algorithm starts by picking a pivot point, which can be the last, the first, the middle, or a random element in the array. The array then splits into a temporary array of the numbers less than the pivot point and a temporary array of numbers greater than the pivot point. Then the algorithm knows that there is an array of numbers less than the pivot, the pivot is in the middle, and there is an array of numbers greater than the pivot. Then the algorithm will continue finding more pivot points and splitting arrays until all the elements have their own array. Then it will compare and merge them back together in the correct order. The image below helps visaulize how the algorithm works.
+      </p>
+      <img src="https://cdn-images-1.medium.com/max/1080/1*-Ew3z7-bu0gjNXKL6plLzA.jpeg" style="width:50%;height:50%">
+      
+      <h2 class="essaySubtitle">Heapsort</h2>
+      <p class="essay">
+	Heapsort begins by building a binary tree of the elements in an unsorted array. From there, the algorithm needs to convert it into a max heap, meaning the parent nodes of each heap should be greater than or equal to the children. A heap is a type of data structure, similar to a binary tree, with parent and children elements. If a child is less than the parent, the parent a child are swapped, and the same is repeated for each level of the heap. Once a max a heap is built, the algorithm will remove the top parent and move it to the end of the sorted array. Then the remaining elements will be turned into a max heap again. This will repeat until the entire array has been sorted and there are no elements left in the heap.
+      </p>
+
+      <h2 class="essaySubtitle">Comparing Time Complexities</h2>
+      <p class="essay">
+	The average, worst, and best time complexity of the merge sorting algorithm is O(n log n), where O is the time to sort 1 element and n is the number of elements in the array. The best and average case time complexity for quicksort is also O(n log n), but the worse case is O(n^2). The best, average, and worse case time complexities for heapsort are also O(n log n). 
+      </p>
+
+      <h2 class="essaySubtitle">Comparing Space Complexities</h2>
+      <p class="essay">
+	The space complexity for merge sort is O(n), meaning each element in the input array takes up 1 space. This space complexity is also the same for quicksort and heapsort.
+      </p>
+      
+      <br>
+      	
+    </div>
+
+  </body>
+  
+</html>
