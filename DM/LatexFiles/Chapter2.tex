@@ -1,0 +1,98 @@
+\documentclass{article}
+
+\usepackage{amsmath, array, amssymb, mathtools} 
+
+\title{Chapter 2 Homework}
+\author{Layne Yarbrough}
+\date{September 11, 2023}
+
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+\maketitle
+Problem 2.1
+\begin{align*}
+  -1 &= 2k+1\\
+  -2 &= 2k\\
+  -1 &= k
+\end{align*}
+An odd number is any number that can be represented by $2k+1$, where $k$ is any real integer. Since this is true for -1, -1 is an odd number.\\
+
+Problem 2.3
+\begin{align*}
+  a &= 2n+1\\
+  b &= 2m+1\\
+  ab &= (2n+1)(2m+1)\\
+  ab &= (4nm + 2n + 2m + 1)\\
+  ab &= 2(nm + n + m) + 1\\
+  k &= 2nm + n + m\\
+  ab &= 2k+1
+\end{align*}
+As long as $m, n \in \mathbb{Z}$, and assuming $a$ and $b$ are odd numbers, than $ab$ will also be an odd number.\\
+
+Problem 2.5
+\begin{align*}
+  \sqrt[3]{2} &= \frac{a}{b}\\
+  b * \sqrt[3]{2} &= a\\
+  2b^3 &= a^3\\
+  2b^3 &= (2k)^3\\
+  (2k)^3 &= 8k^3\\
+  b^3 &= 4k^3
+\end{align*}
+Assume for contradiction that $\sqrt[3]{2}$ is rational. This means that it must be a ratio of two numbers. At least one of $a$ or $b$ must be odd, otherwise, if they were both even, the ratio $\frac{a}{b}$ could be simplified by a factor of 2. When we get to $2b^3 = a^3$, we know that $a$ must be even. When we get to the final step, we can see that $b$ must be divisible by 4, so it must also be even. This goes against our original statement that at least one of $a$ or $b$ must be odd, so $\sqrt[3]{2}$ cannot be rational, therefore it is irrational.\\
+
+Problem 2.7\\
+If a die has seven sides, the sides should have equal surface area. Therefore, the chance of the die landing on any one side is equal to each of the other sides.\\
+
+Problem 2.9 (a)
+\begin{align*}
+  a, b &\in \mathbb{Z}\\
+  c &= a^2\\
+  d &= b^2\\
+  a &= p_1^{x_1}, p_2^{x_2}, ... p_n^{x_n}\\
+  b &= q_1^{x_1}, q_2^{x_2}, ... q_m^{x_m}\\
+  a^2 &= p_1^{2x_1}, p_2^{2x_2}, ... p_n^{2x_n}\\
+  b^2 &= q_1^{2x_1}, q_2^{2x_2}, ... q_m^{2x_m}\\
+  cd &= a^2 * b^2\\
+  cd &= a^2b^2\\
+  a^2b^2 &= p_1^{2x_1} * q_1^{2x_1} * p_2^{2x_2} * q_2^{2x_2} * ... * p_n^{2x_2} * q_n^{2x_m}\\
+  cd &= (ab)^2
+\end{align*}
+Since all the exponents are even, a 2 can be factored out so the result is a perfect square.\\
+
+Problem 2.9 (b)
+\begin{align*}
+  c &= 12\\
+  d &= 3\\
+  cd &= (12)(3)\\
+  cd &= 36
+\end{align*}
+This proves that this statement is not true, because neither 12 or 3 are perfect squares and $12 \neq 3$. However, in this example $cd = 36$ is a perfect square. Therefore the statement is false because if $cd$ is a perfect square, $c$ and $d$ are not necessarily perfect squares all the time.\\
+
+Problem 2.9 (c)
+\begin{align*}
+  x, y &\in \mathbb{Z}\\
+  c &> d\\
+  c &= x^2\\
+  d &= y^2\\
+  x^2 &> y^2\\
+  \sqrt{x^2} &> \sqrt{y^2}\\
+  x &> y
+\end{align*}
+The number that is greater must also have a greater square.\\
+
+Problem 2.11\\
+The line $(x+y)(x-y) > 0 $ cannot be changed to $x+y > 0$, and the result should have been $x^2-y^2 > 0$.\\
+
+Problem 2.13\\
+(a) For any positive real number $n$, $n$ has two square roots, $x$ and $y$, such that $x \neq y$.\\
+(b)For all positive numbers $n$, such that $n = 2k$, where $k$ is any real integer, $n=x+y$, such that $x$ an $y$ are both prime.\\
+
+Problem 2.15\\
+\begin{align*}
+  \ceil*{\frac{5}{3}} &\approx \ceil*{1.67}\\
+  \ceil*{1.67} &= 2
+\end{align*}
+There are 2 people left out, so X must know the other 3 or not know the other 3 out of the 5.
+
+\end{document}
